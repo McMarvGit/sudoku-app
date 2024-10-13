@@ -1,0 +1,12 @@
+.root{
+    -fx-background-color:"#6495ed";
+}
+
+.button{
+    -fx-background-color:"#f9f5ff";
+    -fx-font-weight: bold;
+}
+
+.button:hover{
+    -fx-background-color:"#f0e6ff";
+}

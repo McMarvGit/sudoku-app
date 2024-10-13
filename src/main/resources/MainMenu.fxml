@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" layoutX="81.0" layoutY="37.0" prefHeight="327.0" prefWidth="438.0" spacing="30.0">
+         <children>
+            <Button fx:id="startButton" mnemonicParsing="false" onAction="#createGame" prefHeight="30.0" prefWidth="150.0" text="Start Game" />
+            <Button mnemonicParsing="false" onAction="#openStatistics" prefHeight="30.0" prefWidth="150.0" text="Statistics" />
+            <Button fx:id="settingsButton" mnemonicParsing="false" onAction="#openSettings" prefHeight="30.0" prefWidth="150.0" text="Settings" />
+            <Button fx:id="desktopButton" mnemonicParsing="false" onAction="#backToDesktop" prefHeight="30.0" prefWidth="150.0" text="Go to Desktop" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>

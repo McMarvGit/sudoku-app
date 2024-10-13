@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<AnchorPane prefHeight="251.0" prefWidth="294.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="68.0" layoutY="37.0" prefWidth="159.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="0.0" prefWidth="121.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="0.0" prefWidth="38.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="49.0" minHeight="10.0" prefHeight="32.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="17.0" prefWidth="111.0" text="Primary Tile Color" />
+            <Label text="Secondary Tile Color" GridPane.rowIndex="1" />
+            <ColorPicker fx:id="primaryColorPicker" prefHeight="25.0" prefWidth="64.0" GridPane.columnIndex="1" />
+            <ColorPicker fx:id="secondaryColorPicker" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Button fx:id="cancelButton" layoutX="121.0" layoutY="191.0" mnemonicParsing="false" onAction="#cancelSettings" text="Cancel" />
+      <Button fx:id="applyButton" layoutX="201.0" layoutY="191.0" mnemonicParsing="false" onAction="#saveSettings" text="Apply" />
+   </children>
+</AnchorPane>
