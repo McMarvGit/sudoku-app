@@ -14,18 +14,12 @@ import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
-import javafx.scene.shape.Path;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
-import java.net.URI;
-import java.net.URL;
-import java.nio.file.Paths;
 import java.util.Optional;
 import java.util.Timer;
 import java.util.TimerTask;
-
-import org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter.Black;
 
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
